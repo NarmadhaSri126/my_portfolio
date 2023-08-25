@@ -14,7 +14,7 @@ body{
 #header{
     width: 100%; /* Use viewport width */
     height: 100vh;
-    background-image: url(images/background.png );
+    background-image: url(images/b6.gif);
     background-size: cover;
     background-position: center;
    
@@ -59,6 +59,7 @@ nav ul li a:hover::after {
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    text-align: right;
 }
 .header-text h1{
     font-size: 60px;
@@ -330,19 +331,22 @@ form .btn2{
 .copyright i{
     color: #ff004f;
 }
+
+
 /*------------------------------css for small screens----------------------*/
 nav .fa-solid{
     display: none;
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/phoneback.png);
+        background-image: url(images/b6.gif);
     }
     .header-text {
-        margin-top:135%; /* Adjust the value to bring down the content */
+        margin-top:90%; /* Adjust the value to bring down the content */
         font-size: 16px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         padding-bottom: 50px;
+       text-align: left;
         
     }
     
